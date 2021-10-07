@@ -1,0 +1,25 @@
+.MenuItems
+{
+    text-align: left;
+    cursor: pointer ;
+    box-sizing: border-box;
+    h4{
+        font-weight:31rem;
+        letter-spacing: 0.03rem;
+        text-transform: uppercase;
+        padding-bottom: 0.25rem;
+        padding-top: 0.25rem;
+        font-size: 0.8rem ;
+        padding-left: 0.6rem;
+        justify-content: center;
+        
+        &:hover
+        {
+            
+            border-radius: 1rem;
+            border: grey;
+            background-color: grey;
+            color:white;
+        }
+    }
+}

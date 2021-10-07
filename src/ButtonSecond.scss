@@ -1,0 +1,19 @@
+.buttonSecondary
+{
+    background-color: transparent;
+    border: 0.1rem solid #171a20;
+    width: 100%;
+    padding: .6rem  2.5rem;
+    text-transform: uppercase;
+    color: #171a20;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    outline:  none;
+    border-radius: 3rem;
+    &:hover
+    {
+        background-color: #171a20;
+        color: white;
+    }
+    
+}
